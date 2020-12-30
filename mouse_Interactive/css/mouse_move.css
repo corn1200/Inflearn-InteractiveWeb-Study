@@ -1,0 +1,37 @@
+body {
+    position: relative;
+    background-color: black;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.cursor_item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 0;
+    left: 0;
+    margin: -50px 0 0 -50px;
+    transition: all 1s ease-in-out;
+}
+
+button {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: red;
+    padding: 30px 80px;
+    margin: 50px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+button:hover {
+    background-color: red;
+    color: #ffffff;
+    font-size: 80px;
+    padding: 80px 150px;
+}
