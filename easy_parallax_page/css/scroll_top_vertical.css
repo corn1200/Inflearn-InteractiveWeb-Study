@@ -1,10 +1,10 @@
 body {
-    height: 10000px;
+    /* height: 10000px; */
     background: linear-gradient(150deg, red, orange, yellow, green, indigo, purple, black);
 }
 
 h1 {
-    color: #ffffff;
+    color: #333333;
 }
 
 .progress {
@@ -25,4 +25,15 @@ h1 {
     left: 0;
     background-color: yellow;
     z-index: 11;
+}
+
+section {
+    width: 400px;
+    background-color: rgba(255, 255, 255, .9);
+    margin: 30px auto;
+    padding: 20px;
+}
+
+p {
+    color: #333333;
 }
